@@ -1,0 +1,57 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local assistant settings
+.claude/
+
+# Downloaded models, checkpoints, and statistics
+pretrained_models/
+pretrained_models.tar
+fid_stats/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.tar
+
+# Training and analysis outputs
+logs/
+*.log
+output_dir/
+output_dir_batch/
+output_hygenq_collect/
+output_tcsvt/
+output_activation_tests/
+plot/
+hardware/logs/
+hardware/results*/
+int8_mm/results/
+real_quant/results/
+
+# Locally built native extensions
+*.so
+*.o
+*.a
+*.ninja_deps
+*.ninja_log
+int8_mm/build/
+int8_mm/*_build/
+int8_mm/*_build_*/
+int8_mm/ext/
+int8_mm/ext_cuda*/
+int8_mm/viditq_ext_cuda*/
+
+# Generated visual-demo assets and reports
+demo/assets/
+demo/quant_inference_manifest*.json
+demo/quant_inference_visual*.html
+demo/quant_inference_visual*.png
+
+# Optional demo and hardware-specific implementations
+demo/
+hardware/
+int8_mm/
+real_quant/
+scripts/
+src/torch-fidelity/
